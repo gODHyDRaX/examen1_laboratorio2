@@ -1,0 +1,76 @@
+.texto{
+        border-bottom: 1px solid rgb(78, 78, 78);
+        display: flex;
+        grid-column-start: 1;
+        grid-column-end: 4;
+}
+.txts{
+    display: grid;
+    grid-template-rows: 17rem   repeat(2,1fr);
+    grid-template-columns: 10rem 1fr;
+    width: 100%;
+    padding: 1rem;
+    gap: 1rem;
+}
+.tx1{
+    width: 100%;
+    background-color: red;
+    border-radius: 15px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: rgb(204, 202, 202);
+    color: rgb(78, 78, 78);
+    font-size: 1.6rem;
+    padding: 1rem;
+    text-align: start  ;
+    align-items: start;
+}
+.tx2{
+        width: 100%;
+        background-color: rgb(204, 202, 202);
+        border-radius: 10px;
+        color: rgb(78, 78, 78);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.6rem;
+}
+.tx2 span{
+                color: rgb(78, 78, 78);
+                cursor: pointer;
+}
+.tx3{
+        width: 100%;
+        background-color: rgb(204, 202, 202);
+        border-radius: 10px;
+        color: rgb(78, 78, 78);
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        font-size: 1.6rem;
+
+    }
+.tx4{
+        width: 100%;
+        background-color: rgb(204, 202, 202);
+        grid-column-start: 1;
+        grid-column-end: 3;
+        border-radius: 10px;
+        color: rgb(78, 78, 78);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        font-size: 1.6rem;
+}
+.tx4 input{
+            color: rgb(78, 78, 78);
+            background-color: rgb(204, 202, 202);
+            border: none;
+            width: 100%;
+            height: 100%;
+        }
+.tx4 span{ 
+                color: rgb(78, 78, 78);
+                cursor: pointer;
+}

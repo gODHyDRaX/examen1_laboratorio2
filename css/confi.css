@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family: monospace;
+}
+
+.root{
+    margin: auto;
+    width: 375px;
+    height: 100%;    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 5rem 8rem 30rem 23rem;
+
+}
